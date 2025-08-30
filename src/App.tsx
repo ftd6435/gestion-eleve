@@ -20,6 +20,7 @@ import { Fees } from './pages/Fees';
 import { SchoolInfo } from './pages/SchoolInfo';
 import { Profile } from './pages/Profile';
 import { Settings } from './pages/Settings';
+import { Courses } from './pages/Courses';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           >
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="timetable" element={<Timetable />} />
+            <Route path="courses" element={<Courses />} />
             <Route path="grades" element={<Grades />} />
             <Route path="rankings" element={<Rankings />} />
             <Route path="classmates" element={<Classmates />} />

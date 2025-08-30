@@ -12,11 +12,13 @@ import {
   School, 
   User, 
   Settings,
-  X
+  X,
+  BookCheck
 } from 'lucide-react';
 
 const navigation = [
   { name: 'Tableau de bord', href: '/dashboard', icon: Home },
+  { name: 'Mes cours', href: '/courses', icon: BookCheck },
   { name: 'Emploi du temps', href: '/timetable', icon: Calendar },
   { name: 'Notes & bulletins', href: '/grades', icon: BookOpen },
   { name: 'Classement de la classe', href: '/rankings', icon: Trophy },
